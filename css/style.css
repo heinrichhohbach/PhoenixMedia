@@ -1,4 +1,10 @@
-.navbar-brand img{
+/* NAVIGATION BAR */
+.navbar {
+    background-color: #f1c40f;
+    border-bottom: 2px solid #cfa011;
+}
+
+.navbar-brand img {
     margin-top: -10px;
 }
 
@@ -7,7 +13,9 @@
     margin-right: 20px;
 }
 
-.jumbotron{
+/* JUMBOTRON */
+
+.jumbotron {
     background-image: url(../media/images/phoenix2.png);
     background-position: top;
     height: 600px;
@@ -27,51 +35,32 @@
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    
+
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 
 
 .vertical-center {
-  min-height: 100%;  /* Fallback for vh unit */
-  min-height: 100vh; /* You might also want to use
-                        'height' property instead.
-                        
-                        Note that for percentage values of
-                        'height' or 'min-height' properties,
-                        the 'height' of the parent element
-                        should be specified explicitly.
-  
-                        In this case the parent of '.vertical-center'
-                        is the <body> element */
-
-  /* Make it a flex container */
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; 
-  
-  /* Align the bootstrap's container vertically */
-    -webkit-box-align : center;
-  -webkit-align-items : center;
-       -moz-box-align : center;
-       -ms-flex-align : center;
-          align-items : center;
-  
-  /* In legacy web browsers such as Firefox 9
-     we need to specify the width of the flex container */
-  width: 100%;
-  
-  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
-     hence the bootstrap's container won't be aligned to the center anymore.
-  
-     Therefore, we should use the following declarations to get it centered again */
-         -webkit-box-pack : center;
-            -moz-box-pack : center;
-            -ms-flex-pack : center;
+    min-height: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
 }
+
+/* BODY */
 
 body {
     background-color: #252839;
@@ -89,12 +78,13 @@ body {
     background-color: #b5b5b7;
 }
 
-#featureArticle p{
+#featureArticle p {
     margin-bottom: 20px;
 }
 
 .blogpos {
     width: 100%;
+    margin-bottom: 50px;
 }
 
 #featureArticle h2 {
@@ -118,6 +108,7 @@ body {
     color: white;
     text-align: center;
 }
+
 #sitefooter h2 {
     color: white;
     text-align: center;
@@ -127,7 +118,7 @@ body {
     margin-bottom: 15px;
 }
 
-#sitefooter ul{
+#sitefooter ul {
     list-style: none;
 }
 
@@ -159,7 +150,7 @@ body {
     margin-right: 15px;
 }
 
-.serviceimg img{
+.serviceimg img {
     margin-bottom: 15px;
 }
 
@@ -171,7 +162,7 @@ body {
     margin-top: 15px !important;
 }
 
-.blogposts h2{
+.blogposts h2 {
     text-align: center;
 }
 
@@ -193,7 +184,7 @@ body {
     background-color: #b5b5b7;
 }
 
-#featureArticle2 p{
+#featureArticle2 p {
     margin-bottom: 20px;
 }
 
@@ -214,7 +205,7 @@ body {
     background-color: #b5b5b7;
 }
 
-#Network p{
+#Network p {
     margin-bottom: 20px;
 }
 
