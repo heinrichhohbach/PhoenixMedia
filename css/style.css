@@ -1,4 +1,5 @@
 /* NAVIGATION BAR */
+
 .navbar {
     background-color: #f1c40f;
     border-bottom: 2px solid #cfa011;
@@ -11,6 +12,105 @@
 .navigateitems li {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.navigationitems li a {
+    color: black;
+}
+
+.navbar-default {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: #f1c40f;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #000000;
+    background-color: #f1c40f;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+    background-color: #f1c40f;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #f1c40f;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000000;
+    background-color: #f1c40f;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #000000;
+    background-color: #f1c40f;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #f1c40f;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #f1c40f;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #000000;
+}
+
+.navbar-default .navbar-link {
+    color: #000000;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #000000;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #000000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #000000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #000000;
+        background-color: #f1c40f;
+    }
 }
 
 /* JUMBOTRON */
@@ -60,44 +160,28 @@
     -ms-flex-pack: center;
 }
 
+@media only screen and (max-width: 1026px) {
+    .jumbotitle>h1{
+        font-size: 50px;
+    }
+}
+
 /* BODY */
 
 body {
     background-color: #252839;
 }
 
-#featureArticle img {
-    height: 200px;
-    width: auto;
-    margin-top: 10px;
-    border-radius: 8px;
+/* FOOTER */
 
-}
+@media only screen and (max-width: 1026px) {
+    #socialsmall {
+        display: none;
+    }
 
-#featureArticle {
-    background-color: #b5b5b7;
-}
-
-#featureArticle p {
-    margin-bottom: 20px;
-}
-
-.blogpos {
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-#featureArticle h2 {
-    margin-left: 15px;
-    color: black;
-}
-
-#featureArticle h3 {
-    color: black;
-}
-
-#featureArticle p {
-    color: black;
+    #sitemapsmall {
+        display: none;
+    }
 }
 
 #sitefooter {
@@ -144,6 +228,43 @@ body {
     height: 64px;
     width: 64px;
 }
+
+/* NEXT SECTION */
+
+#featureArticle img {
+    height: 200px;
+    width: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+
+}
+
+#featureArticle {
+    background-color: #b5b5b7;
+}
+
+#featureArticle p {
+    margin-bottom: 20px;
+}
+
+.blogpos {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#featureArticle h2 {
+    margin-left: 15px;
+    color: black;
+}
+
+#featureArticle h3 {
+    color: black;
+}
+
+#featureArticle p {
+    color: black;
+}
+
 
 .secondservice h2 {
     text-align: right;

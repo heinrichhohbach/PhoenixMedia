@@ -17,10 +17,18 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="../media/images/logosmall.png">
+                    <img alt="Brand" src="media/images/logosmall.png">
                 </a>
+                <button type="button" class="navbar-toggle" 
+		    		data-toggle="collapse" 
+		    		data-target="#myCollapsingList">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			    </button>
             </div>
-            <ul class="nav navbar-nav navbar-right navigateitems">
+            <ul id="myCollapsingList" class="nav navbar-nav navbar-right navigateitems collapse navbar-collapse">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog</a></li>
                 <li class="dropdown">
@@ -127,22 +135,22 @@
     <br>
     <div class="container-fluid">
         <div class="row" id="sitefooter">
-            <div class="col-md-4 text-center aboutus">
+            <div class="col-md-4 text-center aboutus" id="aboutussmall">
                 <h2>About Us</h2>
                 <hr>
                 <p>132, My Street,<br> Bigtown BG23 4YZ<br> England
                 </p>
                 <a type="button" class="btn btn-primary btn-lg" href="Pages/about.html">Contact Us</a><br>
             </div>
-            <div class="col-md-4 text-center socialbuttons">
+            <div class="col-md-4 text-center socialbuttons" id="socialsmall">
                 <h2>We're Also Social!</h2>
                 <hr>
-                <a href="#"><img src="../media/images/facebook.png"></a>
-                <a href="#"><img src="../media/images/instagram.png"></a>
-                <a href="#"><img src="../media/images/twitter.png"></a>
-
+                    <a href="#"><img src="media/images/facebook.png"></a>
+                    <a href="#"><img src="media/images/instagram.png"></a>
+                    <a href="#"><img src="media/images/twitter.png"></a>
+                
             </div>
-            <div class="col-md-4 text-center sitemap">
+            <div class="col-md-4 text-center sitemap" id="sitemapsmall">
                 <h2>Site Map</h2>
                 <hr>
                 <ul>
