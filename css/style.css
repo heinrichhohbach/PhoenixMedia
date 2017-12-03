@@ -346,3 +346,18 @@ body {
 #Network img {
     margin-bottom: 10px;
 }
+
+#ContactUsButton {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.ContactForm {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
